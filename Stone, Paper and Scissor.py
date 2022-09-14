@@ -8,7 +8,7 @@ while True:
     winuser = 0
     for i in range(1, 6):
         print("\nRound", i, "Start")
-        user = input("1) Stone\n2) Paper\n3) Scissor\nChoose one option: ")
+        user = input("1) Stone\n2) Paper\n3) Scissor\nChoose one option: ").title()
         if user == "stone":
             print("You selected Stone")
         elif user == "paper":
